@@ -65,40 +65,8 @@ namespace BMI
                     break;
             }
         }
-
-        public string BMITablaGUI()
-        {
-            string eredmeny="";  
-            double bmi = TestTomegIndex();
-            switch (bmi)
-            {
-                case double i when i > 0 && i < 16:
-                    eredmeny = "Súlyos soványság!";
-                    break;
-                case double i when i >= 16 && i < 16.99:
-                    eredmeny = "Mérsékelt soványság!";
-                    break;
-                case double i when i >= 17 && i < 18.49:
-                    eredmeny = "Enyhe soványság!";
-                    break;
-                case double i when i >= 18.5 && i < 24.99:
-                    eredmeny = "Normális testsúly!";
-                    break;
-                case double i when i >= 25 && i < 29.99:
-                    eredmeny = "Túlsúlyos!";
-                    break;
-                case double i when i >= 30 && i < 34.99:
-                    eredmeny = "I. fokú elhízás!";
-                    break;
-                case double i when i >= 35 && i < 39.99:
-                    eredmeny = "II. fokú elhízás!";
-                    break;
-                case double i when i >= 40:
-                    eredmeny = "III. fokú(súlyos) elhízás!";
-                    break;
-            }
-            return eredmeny;
-        }
+        
+        
         public void Kiir()
         {
             Console.WriteLine($"{Nev}, {SzulEv}, {Nem}, {Magassag}, {Suly}");

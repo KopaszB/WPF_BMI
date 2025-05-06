@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{37C2890D-74AD-4017-8F84-0ECBF4FE5314}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_BMI", "WPF_BMI\WPF_BMI.csproj", "{53193A03-E44D-41F1-A1AE-A7A62383365A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{37C2890D-74AD-4017-8F84-0ECBF4FE5314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C2890D-74AD-4017-8F84-0ECBF4FE5314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C2890D-74AD-4017-8F84-0ECBF4FE5314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53193A03-E44D-41F1-A1AE-A7A62383365A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53193A03-E44D-41F1-A1AE-A7A62383365A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53193A03-E44D-41F1-A1AE-A7A62383365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53193A03-E44D-41F1-A1AE-A7A62383365A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
